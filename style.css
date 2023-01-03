@@ -6,8 +6,21 @@
 
 body {
     background: #333;
+  
 }
 
+.container{
+    min-width: 340px;
+}
+
+.div-input {
+    margin-top: 32px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -16,14 +29,17 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-input {
-    width: 200px;
-    height: 30px;
+.ipt {
+    width: 340px;
+    padding: 10px;
     outline: 0;
     border: none;
     text-align: center;
     background: #333;
     color: white;
+    border-bottom: 1px solid rgb(149, 149, 149);
+    margin-right: 16px;
+    font-size: 1rem;
 }
 
 section {
@@ -31,23 +47,10 @@ section {
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 1000px;
+    width: 340px;
 }
 
-.div-input {
-    margin-top: 32px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.div-input input {
-    border-bottom: 1px solid rgb(149, 149, 149);
-    margin-right: 16px;
-    font-size: 1rem;
-    width: 100%;
-}
 
 .div-input button {
     padding: 4px 16px;
@@ -57,6 +60,7 @@ section {
     background: #7b72fa;
     color: white;
     font-size: 1rem;
+    margin-top: 20px;
 }
 
 .div-list {
